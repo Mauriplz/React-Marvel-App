@@ -1,0 +1,32 @@
+.main__section{
+    margin: 50px 40px;
+    height: 100%;
+}
+
+.main__pointer{
+    cursor: pointer;
+}
+
+.main__heroes{
+    margin: 25px 150px;
+}
+
+@media screen and (min-width: 1150px) {
+    .img-fluid{
+        width: 350px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1475px) and (min-width: 1201px) {
+    .main__heroes{
+        margin: 50px 35px;
+    }
+  }
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .main__heroes{
+        margin: 0px;
+    }
+  }
+
